@@ -24,5 +24,6 @@ module.exports = {
     camelcase: 'off',
     'no-undef': 'off',
     'no-alert': 'off',
+    'prefer-template': 'off',
   },
 }
