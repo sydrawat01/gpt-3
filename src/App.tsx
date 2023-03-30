@@ -21,7 +21,7 @@ const App: FC = () => {
     setMessages(updatedMessages)
     let x = ''
     updatedMessages.forEach((element) => {
-      x += '\n' + element.role + ': ' + element.content + '\n'
+      x += '\n' + element.content + '\n'
     })
     console.log(x)
 
