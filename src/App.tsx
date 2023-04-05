@@ -4,7 +4,6 @@ import Chat from './components/Chat/Chat'
 import Navbar from './components/Layout/Navbar'
 import Footer from './components/Layout/Footer'
 import { Message } from './types'
-import { azureOpenAiChatGPT } from './utils'
 
 const App: FC = () => {
   const [messages, setMessages] = useState<Message[]>([])
